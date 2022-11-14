@@ -1,0 +1,9 @@
+Buenas practicas con Nodejs y las ApiRest con Node
+
+en este proyecto se comenzó 
+  -  Con la configuracion de npm init
+  -  Insersion de los archivos: .gitiggnore  .eslintrc.json  .editorconfig |Mas adelante explicaré sus usos|
+	|Con gitignore.io encontrare que archivos   |
+	|ignorar dependiendo de las tecnologias que |
+	|use el proyecto			    |
+

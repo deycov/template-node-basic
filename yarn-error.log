@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\adria\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\adria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\adria\bin;C:\Python311\Scripts;C:\Python311;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\xampp\php;C:\composer;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\BC5\BIN;C:\Users\adria\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\adria\AppData\Local\Programs\Python\Python39;C:\Users\adria\AppData\Local\Microsoft\WindowsApps;C:\Users\adria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\adria\AppData\Roaming\Composer\vendor\bin;C:\Users\adria\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\adria\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92864:59)
+      at Object.<anonymous> (C:\Users\adria\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:85054:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\adria\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\adria\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+npm manifest: 
+  {
+    "name": "api_rest_curso",
+    "version": "1.0.0",
+    "description": "Practica y pruebas del curso de platzi sobre Backend con NodeJs",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js",
+      "lint": "eslint"
+    },
+    "author": "Adrian Restrepo",
+    "license": "ISC",
+    "devDependencies": {
+      "eslint": "^8.26.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "nodemon": "^2.0.20",
+      "prettier": "^2.7.1"
+    },
+    "dependencies": {
+      "@hapi/boom": "^9.1.4",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "express-handlebars": "^6.0.6",
+      "faker": "^5.5.3",
+      "joi": "^17.6.4",
+      "path": "^0.12.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
