@@ -4,8 +4,8 @@
   "description": "Practica y pruebas del curso de platzi sobre Backend con NodeJs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
     "lint": "eslint"
   },
   "author": "Adrian Restrepo",

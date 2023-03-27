@@ -7,7 +7,7 @@ const usersRoutes  = require("./users.routes.js");
 const router = express.Router();
 
 function appRoutes(app){
- app.use('/', router);
+ app.use('/api/v1', router);
 
  router.use('/', indexRouter);
  router.use('/products', productsRoutes);
