@@ -12,7 +12,7 @@ const service = new ProductsService();
 router.get('/', async (req, res) => {
     const products = await service.find();
 
-    res.status(200).json(products).render('allProducts');
+    res.status(200).json(products);
 });
 
 router.get('/:id',

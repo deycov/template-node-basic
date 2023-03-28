@@ -16,18 +16,18 @@ const port = 3000;
 app.use(express.json())
 
 //motor de vistas  handlebars
-app.engine('.hbs',engine(
-	{
-		defaultLayout: 'main', 
-  		layoutsDir: path.join(app.get('views'), 'layouts'),
-  		partialsDir: path.join(app.get('views'), 'partials'),
-		extname: '.hbs',
-		helpers: './schemas/handlebars'
-	}
+// app.engine('.hbs',engine(
+// 	{
+// 		defaultLayout: 'main', 
+//   		layoutsDir: path.join(app.get('views'), 'layouts'),
+//   		partialsDir: path.join(app.get('views'), 'partials'),
+// 		extname: '.hbs',
+// 		helpers: './schemas/handlebars'
+// 	}
 	
-	));
-app.set('view engine', '.hbs');
-app.set('views', path.join(__dirname, 'views'));
+// 	));
+// app.set('view engine', '.hbs');
+// app.set('views', path.join(__dirname, 'views'));
 
 
 //de esta manra poddemos bloquear otros lugares de acceso
